@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header><span class="title">KATIK</span> <span class="subtitle">kalkulator matematika</span></header>
+    <main>
+        <div class="card">
+            <div class="figure">
+                <div class="gambar"></div>
+            </div>
+
+            <div class=" rumus">
+                <p>rumus luas persegi adalah</p>
+                <p>L = S X S</p>
+                <p>Dimana :</p>
+                <p>L = Luas</p>
+                <p>S = Sisi</p>
+
+            </div>
+            <div>
+                <form>
+                    <h1>Hitung luas persegi</h1>
+                    <input id="sisi-luas" name="sisi-luas" required pattern="[0-9]+">
+                    <p id="rumus_luas"></p>
+                    <p id="perhitungan_luas"></p>
+                    <p id="output_luas"></p>
+                    <button type="submit" name="hitung-luas" onclick=hitung_luas(event)>hitung</button>
+                    <button name="reset_luas"onclick=reset_luas(event)>reset</button>
+                </form>
+            </div>
+        </div>
+        <div class="card">
+            <div class="figure">
+                <div class="gambar"></div>
+            </div>
+
+            <div class=" rumus">
+                <p>rumus keliling persegi adalah</p>
+                <p>K = 4 X S</p>
+                <p>Dimana :</p>
+                <p>L = Luas</p>
+                <p>S = Sisi</p>
+
+            </div>
+            <div>
+                <form>
+                    <h1>Hitung keliling persegi</h1>
+                    <input id="sisi-keliling" name="sisi-keliling" required>
+                    <p id="rumus_keliling"></p>
+                    <p id="perhitungan_keliling"></p>
+                    <p id="output_keliling"></p>
+
+                    <button type="submit" name="hitung-keliling" onclick="hitung_keliling(event)">hitung</button>
+                    <button  name="reset-keliling" onclick="reset_keliling()">reset</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+header {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 20px  20px;
+}
+
+body {
+    background-color: lightgray;
+}
+.card{
+    background: white;
+}
+.gambar {
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+}
+
+.title {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.subtitle {
+    font-weight: small;
+    color: gray;
+}
+
+.figure {
+    min-height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
